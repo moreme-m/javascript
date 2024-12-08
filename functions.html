@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+    <button onclick="display()">Click it!</button>
+    <button onclick="sum()"> sum </button>
+    <p id="paragraph"></p>
+     
+    <script>
+        // function is a block of code meant to do something
+        // function name(){
+          //block of code to be executed
+        //}
+
+        function display(){
+            document.getElementById("heading").
+            innerHTML = "This is wonderful";
+        }
+
+
+        function sum(){
+            var a = 10;
+            var b = 19;
+            document.getElementById("paragraph").
+            innerHTML = a + b;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <img src="DOM-model.svg (1).png" alt="">
+
+    <h2 id="heading">Welcome to the DOM</h2>
+    <p id="p1">Hey guys</p>
+    <button onclick="tryme()">
+        Click Me!
+    </button>
+    <script src="script.js"></script>
+
+    <script>
+        document.getElementById("p1").innerHTML = "paragraph";
+
+        var heading = document.getElementById("heading").innerHTML
+
+        alert("The first paragraph is?" + heading);
+
+        a=34
+        b=87
+
+        document.write("The sum of 34 and 87 is ");
+        document.write((34 + 87))
+
+        
+
+    </script>
+</body>
+</html>

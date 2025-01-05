@@ -13,7 +13,7 @@ class student {
         this.age = age
          this.hobby = hobby
          this.color = color
-    }
+    }  
 }
 
 let student2 = new student("Victor", 19, "dancing", "red")

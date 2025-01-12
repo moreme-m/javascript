@@ -35,3 +35,4 @@ document.write(doublednumbers)
 document.write(eval("7 + 3"))
 
 
+docum,ent.write(the most effectient way to ke)

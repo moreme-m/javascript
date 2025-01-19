@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation in Javascript</title>
+</head>
+<body>
+    
+    <form>
+        name: <input id="name" type="text"> <br>
+        age: <input id="age" type="number">  <br>
+        <input type="submit">
+
+    </form>
+    <script>
+        function validate(){
+            let name = document.getElementById("qname").value;
+            if (name.length < 3){
+                alert("Name must be more than 3 characters")
+            }
+        }
+    </script>
+</body>
+</html>
